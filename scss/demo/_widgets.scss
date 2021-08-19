@@ -1,0 +1,281 @@
+
+/* ----------------------------------------------------------------
+
+	widgets.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Widgets
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for widgets. Thanks!
+-----------------------------------------------------------------*/
+
+
+.widget {
+	position: relative;
+
+	p {
+		font-family: "Open Sans",sans-serif;
+		font-weight: 400;
+		line-height: 1.3rem!important;
+		color: #3a3a3a;
+		font-size: 0.75rem;
+	}
+
+	a {
+		font-family: $body-font;
+		font-weight: 400;
+	}
+
+	.widget-title {
+		color: #828282;		
+		font-size: 0.875rem;
+		margin-bottom: .5rem;
+		font-family: $heading-font;
+		font-weight: 500;
+	}	
+
+	// Widget - Social
+	&.widget-social {
+		.widget-content {
+			p {
+				color: $white;
+				font-size: 1.125rem;
+				display: block;
+				font-family: $heading-font;
+			}
+
+			.social-icons {
+
+				padding: 0;
+				
+				list-style: none;
+				margin-top: -0.5rem;
+	
+				li {
+					padding: 0.5;
+	
+					&:last-child {
+						padding-right: 0;
+					}
+			
+					a {
+						color: $white;		
+						display: inline-block;
+						border-radius: 50%;
+						line-height: 1.8125rem;	
+						vertical-align: middle;
+						text-align: center;
+						width: 1.8125rem;
+						height: 1.8125rem;
+						background-color: $theme-color;
+	
+						@include transition(all 0.3s ease-in-out);
+			
+						&:hover {
+							background-color: $theme-color;
+							color: $white;
+						}
+			
+						img {
+							border-radius: 0.5rem;
+						}
+	
+						&.contact {
+							color: $primary !important;
+							background-color: $white;
+							border-radius: 50%;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	// Widget - Links
+	&.widget-links {
+		margin-bottom: 2rem;
+
+		ul {
+			list-style: none;
+			display: inline-block;
+
+			li {
+				display: inline-block;
+				padding-left: 1rem;
+				padding-right: 1rem;
+
+				a {
+					color:white;
+					font-weight: 300;
+					text-decoration: none;
+					font-size: 0.875rem;
+					font-family: $heading-font;
+
+					&:hover {
+						color: $theme-color;
+					}
+				}
+			}
+		}
+
+		@include media-breakpoint-down(lg) {
+			padding: 0 !important;
+		}
+	}
+
+	@include media-breakpoint-down(md) {
+
+		&.widget-links {
+
+			.widget-content {
+				justify-content: space-between;
+			}
+
+			ul {
+				width: auto;
+				margin: auto;
+			}
+		}
+}
+
+	// Widget - Payments
+	&.widget-payment {
+
+		p {
+			color: $white;
+			font-size: 1.125rem;
+			display: block;
+			font-family: $heading-font;
+		}
+		.payments {
+
+			.payment-icon {
+				display: inline-block;
+				vertical-align: middle;
+				margin-right: .5rem;
+				padding: 0.2rem;
+				background-size: 80% auto;
+				background-repeat: no-repeat;
+				background-position: center;
+				border-radius: 0.5rem !important;
+
+				img {
+					width: 3rem !important;
+				}
+			}
+		}
+	}
+
+	// Widget - custom html
+	&.widget-custom-html {
+		.widget-title {
+			font-size: 1.0625rem;
+			color: #737575;
+			width: 13rem;
+		}
+
+		.widget-content {
+			a {
+				display: block;
+				text-decoration: none;
+				color: $dark;
+				font-size: 1.0625rem;
+			}
+		}
+	}
+
+	// Widget - feedback
+	&.widget-feedback {
+		.widget-content {
+			p {
+				letter-spacing: 0.1rem
+			}
+
+			#widget-feedback-form {
+
+				input {
+					background-color: #f9f9f9;
+					color:#d0d0d0;
+				}
+				
+				.input-group-append {
+					margin-left: -2.875rem;
+				}
+			}
+		}
+	}
+
+	&.widget-subscribe {
+		.widget-content {
+			p {
+				font-size:0.875rem;
+				color: #828282;
+			}
+
+			#widget-subscribe-form {
+				.input-group-append {
+					margin-left: 1rem;
+				}
+
+				.input-group {
+					input {
+						font-size: 0.7rem;
+						border-radius: 2rem;
+						background-color: #424242;
+						padding:.2rem 9.5rem 0.2rem 1.5rem;
+					}
+
+					button {
+						padding: 1rem 3.5rem;
+						letter-spacing: 0.05rem;
+						font-size: 0.875rem;
+						color: $white;
+
+						i {
+							font-size: 0.9rem;
+							margin-left: 0.5rem;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	// Widget - Products
+	&.widget-products {
+		.widget-content {
+			.product {
+				display: flex;
+				align-items: center;
+				margin-bottom: 0.625rem;
+
+				.product-image {
+					flex: 1;
+					height: 8.25rem;
+					max-width: 9.75rem;
+				}
+
+				.product-details {
+					flex: 1;
+					padding: 0 1.25rem;					
+				}
+
+				.product-price {					
+					margin-bottom: 0.625rem;
+				}
+
+				.product-title {
+					a {
+						color: $white;																		
+					}					
+				}
+			}
+		}
+	}
+}

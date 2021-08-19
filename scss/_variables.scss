@@ -1,0 +1,250 @@
+/* ----------------------------------------------------------------
+
+	variables.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for variables. Thanks!
+-----------------------------------------------------------------*/
+
+
+//-------------------- Base Colors --------------------//
+
+$theme-color:                   #e46600;
+$body-color:                    #000000;
+$heading-color:                 #302f2d;
+$third-color:                   #2e2e2e;
+// $body-bg:                       #f9f9f9;
+
+//-------------------- Redefine Bootstrap Variables ------------//
+
+// Theme Colors
+$primary:                     $theme-color;
+$secondary:                   #1a1a1a;
+$success:                     #fafafa;
+$dark:                        black;
+
+
+//-------------------- Font Families --------------------//
+$body-font:                   'Inter', sans-serif;
+
+$heading-font:                'Comfortaa', cursive;
+
+
+// Font sizes
+$h1-font-size:                	6rem;
+$h1-about: 						          5.75rem;
+$h2-font-size:                	3.5rem;
+$h3-font-size:                	2.5rem;
+$h4-font-size:                	1.5rem;
+$h5-font-size:                	1.125rem;
+$h6-font-size:               	  1rem;
+
+
+// space//
+$spacer: 1.5rem !default;
+
+$spacers:(
+  0: 0,
+  1: $spacer / 4,
+  2: $spacer / 2,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2,
+  6: $spacer * 3,
+  7: $spacer * 4,
+  8: $spacer * 5,
+) !default;
+
+// border//
+$border-radius:               0.5rem;
+$border-radius-sm:            1rem;
+$border-radius-lg:            2rem;
+$border-radius-pill:          50rem;
+
+
+//-------------------- Top Bar --------------------//
+
+$topbar-color:                  #ddcef5;
+$topbar-hover-color:            #ddcef5;
+
+
+//-------------------- Top Bar --------------------//
+
+$topbar-height:                 2.8125rem;
+$topbar-line-height:            2.75rem;
+$topbar-color:                  #adacac;
+$topbar-hover-color:            #7c7b7a;
+
+//-------------------- Primary Menu --------------------//
+
+$primary-menu-padding:					0.5rem;
+$sticky-menu-padding:					  1.40625rem;
+
+$primary-menu-font:             $heading-font;
+$primary-menu-font-weight:      400;
+$primary-menu-font-size:        0.875rem;
+$primary-menu-font-tt:          initial;
+$primary-menu-font-color:     #404040;
+$primary-menu-font-spacing:     0;
+
+$header-height:                 4.5rem;
+
+// Sticky Header
+$sticky-header-height:          5.625rem;
+
+
+// top Button
+$top-btn-font-size:        		  1rem;
+$top-btn-font-color:       		#ffffff;
+
+
+//-------------------- Section --------------------//
+
+$section-spacer:				3rem;
+
+
+
+// Forms
+$input-color:                   #8f8f8f;
+$input-border-color:            #d1d1d1;
+$input-border-width:			      1px;
+$input-btn-focus-color-opacity: 1;
+
+$input-btn-padding-y:           0.8rem;
+$input-btn-padding-x:           2.5rem;
+$input-btn-font-size:           0.75rem;
+
+$input-btn-padding-y-sm:        0.67rem;
+$input-btn-padding-x-sm:        1.5rem;
+$input-btn-font-size-sm:        0.75rem;
+
+$input-btn-padding-y-lg:        1.33rem;
+$input-btn-padding-x-lg:        1.67rem;
+$input-btn-font-size-lg:        1.17rem;
+
+$input-btn-line-height:         1;
+
+$input-btn-focus-width:         1px;
+$input-focus-border-color:      $theme-color;
+
+$input-border-radius:           2rem;
+$input-border-radius-sm:        1rem !important;
+$input-border-radius-lg:        1.83rem;
+
+$input-font-weight:				      300;
+$input-focus-box-shadow:		    0 0 0 1px #e5e8e8;
+$input-placeholder-color:       #ffffff;
+
+
+// Buttons
+$btn-font-family:               $body-font;
+
+$btn-padding-y:                 1rem;
+$btn-padding-x:                 5rem;
+$btn-font-size:                 0.75rem;
+
+$btn-padding-y-sm:              0.5rem;
+$btn-padding-x-sm:              1.5rem;
+$btn-font-size-sm:              0.583rem;
+
+$btn-padding-y-lg:              1.5rem;
+$btn-padding-x-lg:              5.33rem;
+$btn-font-size-lg:              1.17rem;
+
+$btn-font-weight:               500;
+$btn-line-height:               1;
+
+$btn-border-width:              1px;
+
+$btn-border-radius:             2rem;
+$btn-border-radius-sm:          0.5rem;
+$btn-border-radius-lg:          1.83rem;
+
+// line height//
+$line-height-base:            1.5;
+$line-height-sm:              1.25;
+$line-height-lg:              1.8;
+
+
+
+
+//-------------------- Social Icons Colors --------------------//
+
+$facebook:                    #3B5998;
+$delicious:                   #205CC0;
+$paypal:                      #00588B;
+$flattr:                      #F67C1A;
+$android:                     #A4C639;
+$smashmag:                    #E53B2C;
+$gplus:                       #DD4B39;
+$wikipedia:                   #333333;
+$stumbleupon:                 #F74425;
+$foursquare:                  #25A0CA;
+$call:                        #444444;
+$ninetyninedesigns:           #F26739;
+$forrst:                      #5B9A68;
+$digg:                        #191919;
+$spotify:                     #81B71A;
+$reddit:                      #C6C6C6;
+$blogger:                     #FC4F08;
+$cc:                          #688527;
+$dribbble:                    #EA4C89;
+$evernote:                    #5BA525;
+$flickr:                      #FF0084;
+$google:                      #DD4B39;
+$instapaper:                  #333333;
+$klout:                       #FF5F52;
+$linkedin:                    #0E76A8;
+$vk:                          #2B587A;
+$rss:                         #EE802F;
+$skype:                       #00AFF0;
+$twitter:                     #00ACEE;
+$youtube:                     #C4302B;
+$vimeo:                       #86C9EF;
+$aim:                         #FCD20B;
+$yahoo:                       #720E9E;
+$email3:                      #6567A5;
+$macstore:                    #333333;
+$myspace:                     #666666;
+$podcast:                     #E4B21B;
+$cloudapp:                    #525557;
+$dropbox:                     #3D9AE8;
+$ebay:                        #89C507;
+$github:                      #171515;
+$googleplay:                  #DD4B39;
+$itunes:                      #222222;
+$plurk:                       #CF5A00;
+$pinboard:                    #0000E6;
+$soundcloud:                  #FF7700;
+$tumblr:                      #34526F;
+$wordpress:                   #1E8CBE;
+$yelp:                        #C41200;
+$intensedebate:               #009EE4;
+$eventbrite:                  #F16924;
+$scribd:                      #666666;
+$stripe:                      #008CDD;
+$print:                       #111111;
+$dwolla:                      #FF5C03;
+$statusnet:                   #131A30;
+$acrobat:                     #D3222A;
+$drupal:                      #27537A;
+$buffer:                      #333333;
+$pocket:                      #EE4056;
+$bitbucket:                   #0E4984;
+$stackoverflow:               #EF8236;
+$hackernews:                  #FF6600;
+$xing:                        #126567;
+$instagram:                   #3F729B;
+$quora:                       #A82400;
+$openid:                      #E16309;
+$steam:                       #111111;
+$amazon:                      #E47911;
+$disqus:                      #E4E7EE;
+$plancast:                    #222222;
+$appstore:                    #000000;
+$pinterest:                   #C8232C;
+$fivehundredpx:               #111111;
+$si_text_color:               #FFFFFF;

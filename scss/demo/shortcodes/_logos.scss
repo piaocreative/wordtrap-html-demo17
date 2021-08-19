@@ -1,0 +1,24 @@
+.logos {
+	display: flex;
+	justify-content: space-between;
+	
+	.logo-item {
+		width: 9rem;
+		height: 8rem;
+		display: flex;
+
+		img {
+			width: auto;
+			height: auto;
+		}
+
+		@include media-breakpoint-down(sm) {
+			margin-left: 0.5rem;
+			margin-right: 0.5rem;
+		}
+	}
+
+	@include media-breakpoint-down(sm) {
+		padding: 0 !important;
+	}
+} 

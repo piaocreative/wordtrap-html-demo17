@@ -1,0 +1,62 @@
+
+/* ----------------------------------------------------------------
+
+	blog.scss
+
+-----------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Blog
+-----------------------------------------------------------------*/
+
+.post {
+	position: relative;
+	background-color: #f9fdfe;
+}
+
+.post-thumbnail {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+
+	img {
+		border-radius: 0.5rem;
+		width: 100%;
+	}
+
+	a {
+		display: block;
+	}
+}
+
+.post-content {
+	padding: .875rem 1rem 3rem;
+
+	.entry-title {
+		font-family: $heading-font;
+		font-weight: 500;
+		color: $secondary;
+	}
+
+	.entry-meta {
+		a {
+			font-size: 0.75rem;
+			text-decoration:none;
+			color: #a7a8a9;
+			font-family: $body-font;
+		}
+	}
+
+	.entry-content {
+		font-size: 1rem;
+		color: $secondary;
+		line-height: 1.8;
+	}
+
+	.entry-link {
+		text-decoration: none;
+		font-size: 1.0625rem;
+		font-family: $heading-font;
+	}
+}

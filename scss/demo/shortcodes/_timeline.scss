@@ -1,0 +1,68 @@
+/*-----------------------------------------------------------------------------------
+
+	Shortcodes: timeline.scss
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Timeline Styles
+-----------------------------------------------------------------*/
+
+
+.timeline {
+    background-color: #25262a;
+    padding-top: 8.125rem;
+    padding-bottom: 8.125rem;
+
+    .events-wrapper {
+        .events {
+            position: relative;
+            overflow: hidden;
+
+            .event {
+                padding: 0 2.8125rem;
+                position: relative;
+
+                .event-thumbnail {
+                    padding-left: 1.875rem;
+                    position: relative;
+
+                    img {
+                        @include transition(all 0.3s ease-in-out);        
+                    }
+                }
+
+                .event-detail {
+                    margin-top: -4.375rem;
+                    position: relative;
+                    z-index: 1;
+
+                    .event-date {
+                        color: $white;
+                        font-size: 6.875rem;
+                        line-height: 8.75rem;
+                        @include transition(all 0.3s ease-in-out);                        
+                    }
+
+                    span {
+                        color: $white;
+                        font-size: 1.1875rem;
+                        line-height: 2.125rem;
+                    }
+                }                
+
+                &:hover {
+                    .event-thumbnail {
+                        img {
+                            @include scale(1.2);
+                        }
+                    }
+
+                    .event-date {
+                        @include translateX(1.875rem);
+                    }
+                }
+            }
+        }
+    }
+}

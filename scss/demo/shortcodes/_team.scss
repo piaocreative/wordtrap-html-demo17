@@ -1,0 +1,37 @@
+
+/*-----------------------------------------------------------------------------------
+
+	Shortcodes: team.scss
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Team member Styles
+-----------------------------------------------------------------*/
+
+.team {
+    position: relative;
+    margin-bottom: 1.875rem;
+
+    .team-image {
+        img {
+            border-radius: 0.5rem;
+        }
+    }
+
+    .team-details {
+        padding: 2.875rem;
+        padding-bottom: 0;
+
+        .team-name {
+            font-family: $heading-font;
+            font-size: 1.75rem;
+        }
+    
+        .team-info {
+            font-size: 0.875rem;
+            font-family: $body-font;
+            color: #353637;
+        }
+    }
+}

@@ -1,0 +1,295 @@
+
+/* ----------------------------------------------------------------
+
+	header.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Header
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for header. Thanks!
+-----------------------------------------------------------------*/
+#header {
+	position: relative;	
+
+	// Transparent header
+	&.transparent-header {
+		background-color: #857db8;
+		z-index: 199;
+
+		@include media-breakpoint-up(lg) {
+			background-color: transparent;
+
+			& + #content,
+			& + #contact-info,
+			& + #error-404 {
+				position: relative;
+				top: -$header-height;
+				margin-bottom: -$header-height;
+			}
+		}			
+	}
+}
+
+
+/* ----------------------------------------------------------------
+	Sticky Header
+-----------------------------------------------------------------*/
+
+#header-wrap {
+	padding-left: 2.8125rem;
+	padding-right: 2.8125rem;
+}
+
+
+/* ----------------------------------------------------------------
+	Logo
+-----------------------------------------------------------------*/
+
+.navbar-brand {
+
+	img {
+		width: 80%;
+		height: auto;
+	}
+}
+
+
+/* ----------------------------------------------------------------
+	Primary Menu
+-----------------------------------------------------------------*/
+
+#primary-menu {
+	margin-left: 8rem;
+
+	.nav-link {
+		color: $primary-menu-font-color;
+		font-family: $body-font;
+		font-size: $primary-menu-font-size;
+		font-weight: $primary-menu-font-weight;		
+		letter-spacing: $primary-menu-font-spacing;
+		text-transform: $primary-menu-font-tt;
+	}
+
+	.nav-item {
+		&:hover {
+			a {
+				color: $theme-color;
+			}
+		}
+	}
+
+	@include media-breakpoint-down(lg) {
+		margin-left: 0;
+	}
+}
+
+
+/* ----------------------------------------------------------------
+	Mega Menu
+-----------------------------------------------------------------*/
+
+// Please ignore mega menu now 
+
+
+/* ----------------------------------------------------------------
+	Top Buttons
+-----------------------------------------------------------------*/
+
+
+#top-btns {
+	.nav-item {
+		@include media-breakpoint-up(lg){
+			margin-bottom: 0;
+		}
+	}
+
+	.nav-link {
+		color: $theme-color;		
+		font-family: $body-font;
+		font-size: 1rem;	
+		line-height: 1;
+		padding: 0.3rem;
+		border-radius: 50%;
+		letter-spacing: 0.05rem;
+
+		&:hover {
+			color: $primary;
+		}
+	}
+}
+
+
+/* ----------------------------------------------------------------
+	Top Links
+-----------------------------------------------------------------*/
+
+#top-links {
+	margin-right: -15rem;
+
+	.nav-item {			
+
+		@include media-breakpoint-up(lg) {
+			padding: .875rem;
+		}
+	}
+
+	a.nav-link {
+		color: $topbar-color;
+		display: block;
+		font-size: 0.875rem;
+		font-family: $body-font;	
+
+		@include media-breakpoint-up(lg) {
+			padding: 0;	
+		}
+		
+
+		&:hover {
+			color: $topbar-hover-color;
+		}
+	}
+
+	.dropdown-toggle {
+		&::after {
+			margin-left: .75em;
+		}
+	}
+
+	.dropdown-menu {
+		background: $white;
+		border: 0;
+		top: $topbar-line-height;
+		left: 0;
+		width: 100%;		
+		margin: 0;
+		border-top: 3px solid $theme-color;
+
+		@include border-radius(0);
+
+		@include box-shadow(0 0 5px -1px rgba($black, 0.2));
+		
+		@include media-breakpoint-up(lg) {
+			width: 8.75rem;
+		}
+
+		a.dropdown-item {
+			color: $heading-color;
+			height: 2.25rem;
+			line-height: 2.25rem;
+			font-size: 0.75rem;				
+			padding: 0 0.75rem;
+
+			&:hover {
+				color: $theme-color;
+			}
+		}
+
+		img {
+			display: inline-block;
+			position: relative;
+			top: -1px;
+			width: 1rem;
+			height: 1rem;
+			margin-right: 0.25rem;
+		}
+	}
+}
+
+
+/* ----------------------------------------------------------------
+	Top Infos
+-----------------------------------------------------------------*/
+
+#top-infos {
+	display: flex;
+
+	.phone-number {
+		margin-right: 2.875rem;
+		
+		a {
+			color: $topbar-color;
+			margin-left: 1.75rem;
+
+			&:hover {
+				color: $topbar-hover-color;
+			}
+		}
+	}
+}
+
+
+/* ----------------------------------------------------------------
+	Top Social
+-----------------------------------------------------------------*/
+
+#top-social,
+#top-social ul { margin: 0; }
+
+#top-social {
+	ul {
+		display: flex;
+		align-items: center;
+	}
+
+	li {
+		padding: 0 0.25rem;
+
+		a {
+			background-color: $theme-color;
+			border-radius: 50%;
+			color: #ffffff;
+			display: inline-block;
+			line-height: 1.8125rem;
+			width: 1.8125rem;
+			height: 1.8125rem;		
+			vertical-align: middle;
+			text-align: center;
+
+			&:hover {
+				color: $topbar-hover-color;
+			}
+
+			i {
+				vertical-align: top;
+				line-height: 1.8125rem;
+			}
+		}
+	}
+}
+
+
+/* ----------------------------------------------------------------
+	Top Login
+-----------------------------------------------------------------*/
+
+
+
+/* ----------------------------------------------------------------
+	Top Search
+-----------------------------------------------------------------*/
+
+
+
+
+/* ----------------------------------------------------------------
+	Top Cart
+-----------------------------------------------------------------*/
+
+
+
+
+/* ----------------------------------------------------------------
+	Top Account
+-----------------------------------------------------------------*/
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+/*-----------------------------------------------------------------------------------
+	utilities.scss
+-----------------------------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Fonts
+-----------------------------------------------------------------*/
+
+// Font Family
+.body-font { font-family: $body-font !important; }
+.heading-font { font-family: $heading-font !important; }
+
+// Font Weight
+.fw-semi-bold { font-weight: 600 !important; }
+.fw-black { font-weight: 900 !important; }
+.fw-low-bold { font-weight: 400 !important;}
+
+
+/* ----------------------------------------------------------------
+	Colors
+-----------------------------------------------------------------*/
+
+.text-black { color: #000 !important; }
+.bg-black { background-color: #282828 !important; }
+
+
+/* ----------------------------------------------------------------
+
+
+
+/* ----------------------------------------------------------------
+	Image
+-----------------------------------------------------------------*/
+
+img {
+	&.img-full {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+}
+
+/* ----------------------------------------------------------------
+	Background
+-----------------------------------------------------------------*/
+.bg-cover {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* ----------------------------------------------------------------
+	Section
+-----------------------------------------------------------------*/
+
+.section {
+	padding-top: $section-spacer;
+	padding-bottom: $section-spacer;
+	position: relative;
+	
+	@include media-breakpoint-down(lg) {
+		padding-top: 2rem;
+		padding-bottom: 1rem;
+	}
+}
+
+.section-padding-top { padding-top: $section-spacer; }
+.section-padding-bottom { padding-bottom: $section-spacer; }
+.section-margin-top { margin-top: $section-spacer; }
+.section-margin-bottom { margin-bottom: $section-spacer; }
+
+/* ----------------------------------------------------------------
+	Position
+-----------------------------------------------------------------*/
+.pos-top-left { position: absolute; top: 0; left: 0; }
