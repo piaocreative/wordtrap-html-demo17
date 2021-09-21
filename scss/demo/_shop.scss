@@ -91,7 +91,6 @@
 
 		i {
 			color: #e46c0b;
-			font-size: 0.75rem;
 
 			&.empty {
 				color: rgba(#e46c0b, 0.5);
@@ -122,7 +121,7 @@
 		text-decoration: none;
 
 		&:hover {
-			padding: 1.2rem 4rem;
+			padding: 1.3rem 5rem;
 			color: #ffffff;
 			background-color: $theme-color;
 		}
@@ -228,18 +227,22 @@
 			right: 0;
 			height: 100%;
 
+			h1 {
+				line-height: 1;
+			}
+
 			h2 {
-				font-size: 4rem;
+				font-size: 3.75rem;
 			}
 
 			p {
 				font-family: $heading-font;
-				font-size: 12rem;
+				font-size: 11rem;
 			}
 
 			a {
 				font-size: 0.875rem;
-				padding: 1.2rem 4.5rem;
+				padding: 1.3rem 5.5rem;
 				border-radius: 2rem;
 				color: #fff;
 				text-decoration: none;
@@ -288,7 +291,7 @@
 		}
 
 		.package-title {
-			font-size: 1.75rem;
+			font-size: 1.55rem;
 			font-family: $heading-font;
 		}
 
@@ -302,7 +305,7 @@
 				color: $white;
 				font-family: $heading-font;
 				font-size: 0.875rem;
-				padding: 1.2rem 5rem;
+				padding: 1.4rem 6rem;
 				border-radius: 2rem;
 			}
 		}
@@ -357,14 +360,14 @@
 
 		.review-title {
 			font-family: $heading-font;
-			font-size: 1.75rem;
+			font-size: 1.55rem;
+			font-weight: 700;
 		}
 	}
 
 	.review-rating {
 		i {
 			color: #e46c0b;
-			font-size: 0.75rem;
 
 			&.empty {
 				color: rgba(#e46c0b, 0.5);
