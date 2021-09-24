@@ -5,7 +5,8 @@
 	.logo-item {
 		width: 9rem;
 		height: 8rem;
-		display: flex;
+		display: flex !important;
+		justify-content: center;
 
 		img {
 			width: auto;

@@ -9,16 +9,24 @@
 	Featured Boxes
 -----------------------------------------------------------------*/
 
-.fbox {	
-	flex: 1;
-	position: relative;
-	margin-bottom: 1.875rem;
-
-	&:not(:last-child) {
-		border-right: 1px solid #282828;
-	}
+.fbox {
+	padding: 1rem;
 
 	.fbox-icon {
-		margin-bottom: 1.375rem;
+		img {
+			width: 3rem;
+			height: 2.5rem;
+		}
+	}
+
+	p {
+		color: #4f4f4f;
+		line-height: 1.5rem;
+		font-family: $body-font;
+		font-size: 0.875rem;
+	}
+
+	@include media-breakpoint-down(lg) {
+		padding: 1rem;
 	}
 }
