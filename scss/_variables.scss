@@ -43,21 +43,6 @@ $h5-font-size:                	1.125rem;
 $h6-font-size:               	  1rem;
 
 
-// space//
-$spacer: 1.5rem !default;
-
-$spacers:(
-  0: 0,
-  1: $spacer / 4,
-  2: $spacer / 2,
-  3: $spacer,
-  4: $spacer * 1.5,
-  5: $spacer * 2,
-  6: $spacer * 3,
-  7: $spacer * 4,
-  8: $spacer * 5,
-) !default;
-
 // border//
 $border-radius:               0.5rem;
 $border-radius-sm:            1rem;

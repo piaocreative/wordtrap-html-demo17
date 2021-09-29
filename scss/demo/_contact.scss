@@ -8,11 +8,16 @@
     top: 13rem;
     right: 18rem;
     background-color: #f9fdfe;
-    padding: 4rem 6rem;
+    padding: 4rem 5rem;
 	border-radius: 0.5rem;
 
 	h4 {
 		font-size: 1.75rem;
+	}
+
+	@include media-breakpoint-down(xxl) {
+		top: 0;
+		right: 0;
 	}
 
 	@include media-breakpoint-down(lg) {
