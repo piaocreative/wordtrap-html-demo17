@@ -14,6 +14,16 @@
 /* ----------------------------------------------------------------
 	Add here styles for Service pages. Thanks!
 -----------------------------------------------------------------*/
+#service {
+	@include media-breakpoint-up(lg) {
+		position: relative;
+		top: 3rem;
+		left: 7rem;
+		z-index: 1;
+		padding-bottom: 3rem;
+	}
+}
+
 .service {
 	position: relative;
 	margin-bottom: 3rem;

@@ -14,26 +14,46 @@ textarea {
     resize: none;
 }
 
-// Form label
-.form-label {
-    font-size: 0.875rem;
-    color: #7c7b7a;
+#contact-info {
+	position: absolute;
+    top: 9rem;
+    right: 18rem;
+    background-color: #f9fdfe;
+    padding: 4rem 5rem;
+	border-radius: 0.5rem;
+
+	h5 {
+		font-size: 1.75rem;
+	}
+
+	@include media-breakpoint-down(xxl) {
+		top: 0;
+		right: 0;
+	}
+
+	@include media-breakpoint-down(lg) {
+		position: relative;
+		top: 0;
+		right: 0;
+		padding: 2rem;
+	}
 }
 
-// Required field
-.required-field {
-    position: relative;
+#contact {
+	label {
+		color: #a2a2a2;
+		font-size: 0.75rem;
+		font-family: $body-font;
+		display: block;
+		margin-bottom: -1rem;
+	}
 
-    &:after {
-        content: "";
-        position: absolute;
-        right: 1.375rem;
-        top: 0;
-        display: block;
-        width: 0.5rem;
-        height: 0.6875rem;
-        background-image: url(../images/icons/clip_icon.png);
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
+	button {
+		letter-spacing: .1rem;
+
+		i {
+			font-size: 0.9rem;
+			margin-left: 0.5rem;
+		}
+	}
 }

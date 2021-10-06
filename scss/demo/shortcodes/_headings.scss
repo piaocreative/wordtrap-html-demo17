@@ -19,27 +19,6 @@
 
 	.title {
 		color: $secondary;
-		font-family: $heading-font;
 		font-weight: 700;
-	}
-
-	.sub-title {
-		font-size: 1.325rem;
-	}
-
-	.attach-link {
-		font-size: 1.0625rem;
-		color:#acaeaf;
-		text-decoration: none;
-		font-family: $body-font;
-
-		&:hover {
-			color: $theme-color;
-		}
-
-		i {
-			font-size: 0.9rem;
-			margin-left: 0.5rem;
-		}
 	}
 }

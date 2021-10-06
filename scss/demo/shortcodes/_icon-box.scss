@@ -12,31 +12,25 @@
 
 .icon-box {
     display: block;
-	margin-bottom: 1.5rem;
+	padding-bottom: 0.8rem;
+	padding-top: 0.5rem;
 
 	.icon-wrapper {
-		background-color: $theme-color;
-		padding: 1.5rem 1.55rem;
-		display: inline-block;
-		border-radius: 50%;
-		line-height: 1;
+		min-width: 12.5rem;
 
-		i {
-			color: $white;
-			font-size: 1.3rem;
+		span {
+			font-family: $heading-font;
+			font-size: 1.0625rem;
+			color: #737575;
+			font-weight: 500;
 		}
 	}
 
-	span {
-		color: #c5c2c1;
-		font-family: $body-font;
-		font-size: 1.125rem;
-	}
-
 	.icon-header {
-		display: flex;
-		align-items: center;
-		line-height: 1;
-		color: #504a4a;
+		h4 {
+			font-weight: 500;
+			font-size: 1.0625rem;
+			line-height: 2.1875rem;
+		}
 	}
 }

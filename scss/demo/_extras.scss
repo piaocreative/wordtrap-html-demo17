@@ -70,7 +70,6 @@ a {
 		padding: 0.5rem 4rem;
 		background-color: $theme-color;
 		color: #f9fdfe;
-		text-decoration: none;
 		font-size: .75rem;
 		border-radius: 2rem;
 		display: inline-block;
@@ -78,23 +77,6 @@ a {
 
 	@include media-breakpoint-down(sm) {
 		margin-bottom: 1rem;
-	}
-}
-
-.shop-now-link {
-	text-decoration: none;
-    background-color: #c5562b;
-    font-size: .8rem;
-    color: #fff;
-    padding: 1.5rem 2.5rem;
-    border-radius: 1rem;
-    font-weight: 600;
-    font-family: $body-font;
-	letter-spacing: 0.05rem;
-
-	i {
-		font-size: 0.9rem;
-		margin-left: 0.5rem;
 	}
 }
 
@@ -135,20 +117,6 @@ a {
 
  .slick-slide {
     margin: 0.5rem;
-}
-
-#service {
-	position: relative;
-	top: 3rem;
-	left: 7rem;
-	z-index: 1;
-	padding-bottom: 3rem;
-
-	@include media-breakpoint-down(lg) {
-		top: 0;
-		left: 0;
-		padding-bottom: 0;
-	}
 }
 
 /* ----------------------------------------------------------------

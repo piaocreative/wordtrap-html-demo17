@@ -52,9 +52,8 @@
 -----------------------------------------------------------------*/
 
 .navbar-brand {
-
 	img {
-		width: 80%;
+		width: 6rem;
 		height: auto;
 	}
 }
@@ -65,8 +64,6 @@
 -----------------------------------------------------------------*/
 
 #primary-menu {
-	margin-left: 8rem;
-
 	.nav-link {
 		color: $primary-menu-font-color;
 		font-family: $body-font;
@@ -84,8 +81,8 @@
 		}
 	}
 
-	@include media-breakpoint-down(lg) {
-		margin-left: 0;
+	@include media-breakpoint-up(lg) {
+		margin-left: 8rem;
 	}
 }
 
@@ -133,7 +130,6 @@
 	margin-right: -15rem;
 
 	.nav-item {			
-
 		@include media-breakpoint-up(lg) {
 			padding: .875rem;
 		}
@@ -149,7 +145,6 @@
 			padding: 0;	
 		}
 		
-
 		&:hover {
 			color: $topbar-hover-color;
 		}

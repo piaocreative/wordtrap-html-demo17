@@ -69,20 +69,15 @@
 
 	.product-categories {
 		margin-top: -0.3rem;
+
 		a {
 			color: #6a6a6a;
 			font-size: 0.875rem;
-			text-decoration: none;
 		}
 	}
 
 	.product-title {
 		font-weight: 600;
-
-		a {
-			color: $secondary;
-			text-decoration: none;
-		}
 	}
 
 	.product-rating {
@@ -104,7 +99,6 @@
 	}
 
 	&:hover {
-
 		.product-image {
 			> a:nth-of-type(2) {
 				z-index: 1;
@@ -119,7 +113,6 @@
 		font-weight: 700;
 		color: $theme-color;
 		border-radius: 2rem;
-		text-decoration: none;
 
 		&:hover {
 			padding: 1.3rem 5rem;
@@ -142,7 +135,6 @@
 		line-height: 1;
 		width: 2.375rem;
 		height: 2.375rem;
-		text-decoration: none;
 
 		@include transition(all 0.3s ease-in-out);				
 
@@ -257,7 +249,6 @@
 				padding: 1.3rem 5.5rem;
 				border-radius: 2rem;
 				color: #fff;
-				text-decoration: none;
 				font-family: $heading-font;
 			}
 			

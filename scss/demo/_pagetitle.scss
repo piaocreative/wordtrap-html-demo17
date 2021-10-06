@@ -29,45 +29,15 @@
 		line-height: 1;
 		color: $secondary;
 	}
-
-	.sub-title {
-		font-weight: 500;
-		font-size: 2rem;
-		color: $secondary;
-		font-family: $heading-font;
-	}
-
-	@include media-breakpoint-down(lg) {
-		padding: 1rem;
-	}
 }
 
 .page-links {
 	font-size: 1.125rem;
 	color: $theme-color;
-	text-decoration: none;
 	font-family: $heading-font;
 	z-index: 1;
 
 	i {
 		margin-left: 2rem;
-	}
-}
-
-.breadcrumb {
-	display: flex;
-	font-size: $h6-font-size;
-	padding: 0.625rem 0;
-
-	li {
-		padding: 0 0.625rem;
-
-		&.active {
-			color: #ddcef5;
-		}
-
-		&:first-child {
-			padding-left: 0;
-		}
 	}
 }
