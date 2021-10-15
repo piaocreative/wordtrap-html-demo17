@@ -243,14 +243,6 @@
 				font-family: $heading-font;
 				font-size: 11rem;
 			}
-
-			a {
-				font-size: 0.875rem;
-				padding: 1.3rem 5.5rem;
-				border-radius: 2rem;
-				color: #fff;
-				font-family: $heading-font;
-			}
 			
 			@include media-breakpoint-down(md) {
 				h2 {
@@ -299,16 +291,6 @@
 		.package-price {
 			font-size: 1.75rem;
 			font-family: $heading-font;
-		}
-
-		.package-btn {
-			a {
-				color: $white;
-				font-family: $heading-font;
-				font-size: 0.875rem;
-				padding: 1.4rem 6rem;
-				border-radius: 2rem;
-			}
 		}
 
 	}
