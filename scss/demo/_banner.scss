@@ -16,7 +16,7 @@
 -----------------------------------------------------------------*/
 
 
-#banner {
+.banner {
     position: relative;
     margin-bottom: $section-spacer;
 
@@ -36,7 +36,13 @@
         padding-right: 4.375rem;
     }
 
-    @include media-breakpoint-down(lg) {
-        margin-bottom: 0;
+    &#about-banner, &#contact-banner {
+        padding-top: 3.75rem;
+        padding-bottom: 3.75rem;
+
+        @include media-breakpoint-up(lg) {
+            padding-top: 9rem;
+            padding-bottom: 6rem;
+        }
     }
 }
