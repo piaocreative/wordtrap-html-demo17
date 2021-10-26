@@ -50,7 +50,7 @@
 	}
 
 	.product-price {
-		font-size: 2.125rem;
+		font-size: 2.1875rem;
 		font-family: $heading-font;
 		font-weight: 700;
 		line-height: 1;
@@ -58,7 +58,7 @@
 
 		del {
 			color: #848484;
-			font-size: 1.75rem;
+			font-size: 1.875rem;
 		}
 
 		sub {
@@ -109,13 +109,13 @@
 
 	.add-to-cart {
 		font-family: $heading-font;
-		font-size: 0.875rem;
+		font-size: 1.125rem;
 		font-weight: 700;
 		color: $theme-color;
 		border-radius: 2rem;
 
 		&:hover {
-			padding: 1.3rem 5rem;
+			padding: 1.3rem 4rem;
 			color: #ffffff;
 			background-color: $theme-color;
 		}
@@ -236,12 +236,16 @@
 			}
 
 			h2 {
-				font-size: 3.75rem;
+				font-size: 4.375rem;
+			}
+
+			h3 {
+				font-size: 2.5rem;
 			}
 
 			p {
 				font-family: $heading-font;
-				font-size: 11rem;
+				font-size: 12.5rem;
 			}
 			
 			@include media-breakpoint-down(md) {
@@ -284,12 +288,12 @@
 		}
 
 		.package-title {
-			font-size: 1.55rem;
+			font-size: 1.875rem;
 			font-family: $heading-font;
 		}
 
 		.package-price {
-			font-size: 1.75rem;
+			font-size: 1.875rem;
 			font-family: $heading-font;
 		}
 
@@ -334,13 +338,14 @@
 		height: 100%;
 
 		.review-info {
-			font-size: 1rem;
+			font-size: 0.875rem;
+			font-weight: 300;
 			color: #a1a1a0;
 		}
 
 		.review-title {
 			font-family: $heading-font;
-			font-size: 1.55rem;
+			font-size: 1.875rem;
 			font-weight: 700;
 		}
 	}

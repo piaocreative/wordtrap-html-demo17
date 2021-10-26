@@ -14,12 +14,7 @@
 		}
 
 		@include media-breakpoint-down(sm) {
-			margin-left: 0.5rem;
-			margin-right: 0.5rem;
+			margin: auto;
 		}
-	}
-
-	@include media-breakpoint-down(sm) {
-		padding: 0 !important;
 	}
 } 

@@ -21,10 +21,10 @@
 
 	.widget-title {
 		color: #828282;		
-		font-size: 0.875rem;
+		font-size: 1rem;
 		margin-bottom: .5rem;
 		font-family: $heading-font;
-		font-weight: 500;
+		font-weight: 300;
 	}	
 
 	// Widget - Social
@@ -99,9 +99,6 @@
 
 				a {
 					color:white;
-					font-weight: 300;
-					font-size: 0.875rem;
-					font-family: $heading-font;
 
 					&:hover {
 						color: $theme-color;
@@ -176,11 +173,6 @@
 
 	&.widget-subscribe {
 		.widget-content {
-			p {
-				font-size:0.875rem;
-				color: #828282;
-			}
-
 			#widget-subscribe-form {
 				.input-group-append {
 					margin-left: 1rem;
@@ -202,6 +194,10 @@
 							margin-left: 0.5rem;
 						}
 					}
+				}
+
+				::placeholder {
+					color: $white;
 				}
 			}
 		}

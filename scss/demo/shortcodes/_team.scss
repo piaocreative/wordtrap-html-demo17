@@ -11,7 +11,7 @@
 
 .team {
     position: relative;
-    margin-bottom: 1.875rem;
+    margin-bottom: 1.875rem 1.5rem;
 
     .team-image {
         img {
@@ -26,12 +26,11 @@
 
         .team-name {
             font-family: $heading-font;
-            font-size: 1.75rem;
+            font-size: 1.875rem;
         }
     
         .team-info {
-            font-size: 0.875rem;
-            font-family: $body-font;
+            font-weight: 300;
             color: #353637;
         }
     }

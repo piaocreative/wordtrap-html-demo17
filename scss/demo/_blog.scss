@@ -35,29 +35,25 @@
 	padding: .875rem 1rem 3rem;
 
 	.entry-title {
-		font-family: $heading-font;
-		font-weight: 500;
 		color: $secondary;
 	}
 
 	.entry-meta {
 		a {
-			font-size: 0.75rem;
-			text-decoration:none;
+			font-size: 0.875rem;
 			color: #a7a8a9;
-			font-family: $body-font;
 		}
 	}
 
 	.entry-content {
-		font-size: 1rem;
+		font-size: 1.25rem;
+		font-weight: 300;
 		color: $secondary;
 		line-height: 1.7;
 	}
 
 	.entry-link {
-		text-decoration: none;
-		font-size: 1rem;
+		font-size: 1.25rem;
 		font-family: $heading-font;
 	}
 }
